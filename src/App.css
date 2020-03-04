@@ -1,38 +1,52 @@
-.App {
+* {
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  padding: 3.5px 3.5px 3.5px 3.5px;
+  border-radius: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  padding: 0px 25px 0px 25px;
+  background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header {
+  background: rgb(72, 61, 139);
+  background: linear-gradient(
+    0deg,
+    rgba(72, 61, 139, 1) 41%,
+    rgba(41, 34, 175, 1) 100%
+  );
+  color: white;
+  padding: 15px;
+  padding-top: 75px;
+}
+
+.footer {
+  background-color: #483d8b;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutModalContainer {
+  background-color: rgb(72, 61, 139);
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movieContainer {
+  background-color: plum;
+  color: darkslategray;
+}
+
+.moviesModalContainer {
+  background-color: grey;
+}
+
+.moviesModalContent {
+  background: black;
+  color: white;
+  margin: 15px;
 }

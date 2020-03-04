@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Avatar",
+    "year": "2009",
+    "genre": "Action"
+  },
+  {
+    "title": "Joker",
+    "year": "2019",
+    "genre": "Action"
+  },
+  {
+    "title": "Harley Quinn: Birds of Prey",
+    "year": "2020",
+    "genre": "Action"
+  },
+  {
+    "title": "A Star is Born",
+    "year": "2018",
+    "genre": "Drama"
+  },
+  {
+    "title": "The Conjuring",
+    "year": "2013",
+    "genre": "Horror"
+  },
+  {
+    "title": "Annabelle",
+    "year": "2014",
+    "genre": "Horror"
+  },
+  {
+    "title": "Kobe",
+    "year": "2020",
+    "genre": "Documentary"
+  },
+  {
+    "title": "Avatar 2",
+    "year": "2021",
+    "genre": "Action"
+  },
+  {
+    "title": "Angry Birds",
+    "year": "2018",
+    "genre": "Family"
+  }
+]
