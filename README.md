@@ -1,6 +1,8 @@
-# React Shopping Cart App;
+# React Shopping Cart App:
 
-Simple shopping cart app to continue learning my recat skills, but also php.
+Simple shopping cart app to continue learning my React skills. Backend is an API that I wrote in PHP.
 
-Front end = React
+## Details:
+
+Front end = React <br>
 Back end = PHP API

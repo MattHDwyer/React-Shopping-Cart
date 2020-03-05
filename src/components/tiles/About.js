@@ -20,13 +20,7 @@ export default () => {
 			price,
 			genre,
 			synopsis
-		}).then(function (response) {
-			console.log(response);
-
 		})
-			.catch(function (error) {
-				console.log(error);
-			});
 		// alert(`${title} ${year} ${price} ${genre} ${synopsis}`);
 	}
 
@@ -58,7 +52,7 @@ export default () => {
 			</div>
 
 			<div className="addMovieModal">
-				<button onClick={() => setModalIsOpen(true)} >Add a Movie</button>
+				<button onClick={() => setModalIsOpen(true)}>Add a Movie</button>
 				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
 					<form onSubmit={handleSubmit} >
 						<div className="form-group-add-movie">
@@ -89,7 +83,7 @@ export default () => {
 							<label>Synopsis:</label> <br></br>
 							<textarea type="text" name="synopsis" className="form-control" onChange={setSynopsisOnChange}></textarea>
 						</div>
-						<input type="submit" name="submit" value="Add Movie" className="button" />
+						<input type="submit" value="Add Movie" className="button" />
 						<br></br><br></br>
 					</form>
 					<button onClick={() => setModalIsOpen(false)}>Close</button>
