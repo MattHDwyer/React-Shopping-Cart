@@ -5,4 +5,4 @@ Simple shopping cart app to continue learning my React skills. Backend is an API
 ## Details:
 
 Front end = React <br>
-Back end = PHP API
+Back end = <a href="https://github.com/MattHDwyer/phplearning/tree/master/jsonparser">PHP API</a>
