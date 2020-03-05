@@ -3,13 +3,18 @@ import axios from 'axios';
 import Modal from 'react-modal';
 
 
+
 Modal.setAppElement('#root');
 
 export default () => {
+
 	useEffect(() => {
-		axios.get('http://192.168.64.3/jsonparser/')
+		axios.get('http://192.168.64.3/jsonparser/get/movie_items.php')
 			.then(res => setMovies(res.data))
-	});
+	}, []);
+
+
+
 
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -26,25 +31,23 @@ export default () => {
 					<h2>${movieDetail.price}</h2>
 					<button onClick={() => setModalIsOpen(true) || setCurrentMovieIndex(index)} >More Info</button>
 					<br></br>
-
-					<div className="moviesModalContainer">
-						<Modal
-							className="moviesModalContent"
-							isOpen={modalIsOpen}
-							onRequestClose={() => setModalIsOpen(false)}
-						>
-							{console.log(currentMovieIndex)}
-							<h1>{movies[currentMovieIndex].title}</h1>
-							<h2>Year: {movies[currentMovieIndex].year}</h2>
-							<h2>${movies[currentMovieIndex].price}</h2>
-							<h2>Genre: {movies[currentMovieIndex].genre}</h2>
-							<h3>Synopsis:</h3>
-							<p>{movies[currentMovieIndex].synopsis}</p>
-							<button onClick={() => setModalIsOpen(false)}>Close</button>
-						</Modal>
-					</div>
 				</div>
+
 			})}
+			{movies.length > 0 &&
+				<Modal
+					className="moviesModalContent"
+					isOpen={modalIsOpen}
+					onRequestClose={() => setModalIsOpen(false)}
+				>
+					<h1>{movies[currentMovieIndex].title}</h1>
+					<h2>Year: {movies[currentMovieIndex].year}</h2>
+					<h2>${movies[currentMovieIndex].price}</h2>
+					<h2>Genre: {movies[currentMovieIndex].genre}</h2>
+					<h3>Synopsis:</h3>
+					<p>{movies[currentMovieIndex].synopsis}</p>
+					<button onClick={() => setModalIsOpen(false)}>Close</button>
+				</Modal>}
 
 
 

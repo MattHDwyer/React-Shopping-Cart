@@ -2,46 +2,64 @@
   {
     "title": "Avatar",
     "year": "2009",
-    "genre": "Action"
+    "genre": "Action",
+    "price": 19.99,
+    "synopsis": "On the lush alien world of Pandora live the Na'vi, beings who appear primitive but are highly evolved. Because the planet's environment is poisonous, human/Na'vi hybrids, called Avatars, must link to human minds to allow for free movement on Pandora. Jake Sully (Sam Worthington), a paralyzed former Marine, becomes mobile again through one such Avatar and falls in love with a Na'vi woman (Zoe Saldana). As a bond with her grows, he is drawn into a battle for the survival of her world."
   },
   {
     "title": "Joker",
     "year": "2019",
-    "genre": "Action"
+    "genre": "Action",
+    "price": 29.99,
+    "synopsis": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker."
   },
   {
     "title": "Harley Quinn: Birds of Prey",
     "year": "2020",
-    "genre": "Action"
+    "genre": "Action",
+    "price": 24.99,
+    "synopsis": "It's open season on Harley Quinn when her explosive breakup with the Joker puts a big fat target on her back. Unprotected and on the run, Quinn faces the wrath of narcissistic crime boss Black Mask, his right-hand man, Victor Zsasz, and every other thug in the city. But things soon even out for Harley when she becomes unexpected allies with three deadly women -- Huntress, Black Canary and Renee Montoya."
   },
   {
     "title": "A Star is Born",
     "year": "2018",
-    "genre": "Drama"
+    "genre": "Drama",
+    "price": 19.99,
+    "synopsis": "Seasoned musician Jackson Maine discovers -- and falls in love with -- struggling artist Ally. She has just about given up on her dream to make it big as a singer until Jackson coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jackson fights an ongoing battle with his own internal demons."
   },
   {
     "title": "The Conjuring",
     "year": "2013",
-    "genre": "Horror"
+    "genre": "Horror",
+    "price": 9.99,
+    "synopsis": "In 1970, paranormal investigators and demonologists Lorraine (Vera Farmiga) and Ed (Patrick Wilson) Warren are summoned to the home of Carolyn (Lili Taylor) and Roger (Ron Livingston) Perron. The Perrons and their five daughters have recently moved into a secluded farmhouse, where a supernatural presence has made itself known. Though the manifestations are relatively benign at first, events soon escalate in horrifying fashion, especially after the Warrens discover the house's macabre history."
   },
   {
     "title": "Annabelle",
     "year": "2014",
-    "genre": "Horror"
+    "genre": "Horror",
+    "price": 19.99,
+    "synopsis": "John Form (Ward Horton) thinks he's found the perfect gift for his expectant wife, Mia (Annabelle Wallis) : a vintage doll in a beautiful white dress. However, the couple's delight doesn't last long: One terrible night, devil worshippers invade their home and launch a violent attack against the couple. When the cultists try to summon a demon, they smear a bloody rune on the nursery wall and drip blood on Mia's doll, thereby turning the former object of beauty into a conduit for ultimate evil."
   },
   {
     "title": "Kobe",
     "year": "2020",
-    "genre": "Documentary"
+    "genre": "Documentary",
+    "price": 14.99,
+    "synopsis": "Follow Kobe Bryant on his epic journey, from Italy to Lower Marion High School. Let this Documentary show you what it truely takes to be a 5 time NBA champion, 3 time finals MVP and a 24 time all star. This is Kobe Bean Bryant"
   },
   {
     "title": "Avatar 2",
     "year": "2021",
-    "genre": "Action"
+    "genre": "Action",
+    "price": 59.99,
+    "synopsis": "The next installment in the franchise."
   },
   {
     "title": "Angry Birds",
     "year": "2018",
-    "genre": "Family"
+    "genre": "Family",
+    "price": 19.99,
+    "synopsis": "Flightless birds lead a mostly happy existence, except for Red (Jason Sudeikis), who just can't get past the daily annoyances of life. His temperament leads him to anger management class, where he meets fellow misfits Chuck (Josh Gad) and Bomb. Red becomes even more agitated when his feathered brethren welcome green pigs to their island paradise. As the swine begin to get under his skin, Red joins forces with Chuck and Bomb to investigate the real reason behind their mysterious arrival."
   }
 ]
